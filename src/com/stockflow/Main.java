@@ -1,5 +1,12 @@
 package src.com.stockflow;
 
-public class Main {
+import src.com.stockflow.ui.Menu;
 
+public class Main {
+    static void main(){
+        System.out.println("🚀 Starting StockFlow...\n");
+        Menu menu = new Menu();
+        menu.start();
+
+    }
 }
